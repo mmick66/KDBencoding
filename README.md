@@ -1,7 +1,8 @@
 KDBencoding
 ===========
 
-Decoder for the Bencoding format used in the BitTorrent protocol
+A simple Objective-C decoder for the Bencoding format used in the BitTorrent protocol
+http://en.wikipedia.org/wiki/Bencode
 
 ```objective-c
 NSData* data = [NSData dataWithContentsOfFile:torrentFilePath];
