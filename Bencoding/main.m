@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "BencodingParser.h"
+#import "KDBencodingParser.h"
 
 static NSString* torrentFilePath = @"/Users/michaelmichailidis/Projects/Bencoding/Bencoding/sample.torrent";
 
@@ -27,7 +27,7 @@ int main(int argc, const char * argv[])
             NSLog(@"WARNING: File was not opened and loaded into the NSData object");
         }
         
-        BencodingParser* parser = [BencodingParser parserWithData:data];
+        KDBencodingParser* parser = [KDBencodingParser parserWithData:data];
         
         if(!parser)
         {

@@ -6,10 +6,10 @@
 //  Copyright (c) 2014 Michael Michailidis. All rights reserved.
 //
 
-#import "BencodingParser.h"
+#import "KDBencodingParser.h"
 #import <ctype.h>
 
-@interface BencodingParser ()
+@interface KDBencodingParser ()
 {
     size_t _currentIndex;
     char _currentChar;
@@ -29,7 +29,7 @@
 
 @end
 
-@implementation BencodingParser
+@implementation KDBencodingParser
 
 @synthesize data = _data;
 @synthesize rootObject = _rootObject;

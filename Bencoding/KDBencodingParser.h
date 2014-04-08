@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface BencodingParser : NSObject
+@interface KDBencodingParser : NSObject
 
 + (id) parserWithData:(NSData*)data;
 

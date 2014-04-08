@@ -10,7 +10,7 @@
 		BECF96EE18BFD5B700A261DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECF96ED18BFD5B700A261DD /* Foundation.framework */; };
 		BECF96F118BFD5B700A261DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BECF96F018BFD5B700A261DD /* main.m */; };
 		BECF96F518BFD5B700A261DD /* Bencoding.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BECF96F418BFD5B700A261DD /* Bencoding.1 */; };
-		BECF96FE18C0AE2B00A261DD /* BencodingParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BECF96FD18C0AE2B00A261DD /* BencodingParser.m */; };
+		BECF96FE18C0AE2B00A261DD /* KDBencodingParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BECF96FD18C0AE2B00A261DD /* KDBencodingParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,8 +33,8 @@
 		BECF96F318BFD5B700A261DD /* Bencoding-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bencoding-Prefix.pch"; sourceTree = "<group>"; };
 		BECF96F418BFD5B700A261DD /* Bencoding.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Bencoding.1; sourceTree = "<group>"; };
 		BECF96FB18BFDE5A00A261DD /* sample.torrent */ = {isa = PBXFileReference; lastKnownFileType = text; path = sample.torrent; sourceTree = "<group>"; };
-		BECF96FC18C0AE2B00A261DD /* BencodingParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BencodingParser.h; sourceTree = "<group>"; };
-		BECF96FD18C0AE2B00A261DD /* BencodingParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BencodingParser.m; sourceTree = "<group>"; };
+		BECF96FC18C0AE2B00A261DD /* KDBencodingParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDBencodingParser.h; sourceTree = "<group>"; };
+		BECF96FD18C0AE2B00A261DD /* KDBencodingParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDBencodingParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +81,8 @@
 				BECF96FB18BFDE5A00A261DD /* sample.torrent */,
 				BECF96F418BFD5B700A261DD /* Bencoding.1 */,
 				BECF96F218BFD5B700A261DD /* Supporting Files */,
-				BECF96FC18C0AE2B00A261DD /* BencodingParser.h */,
-				BECF96FD18C0AE2B00A261DD /* BencodingParser.m */,
+				BECF96FC18C0AE2B00A261DD /* KDBencodingParser.h */,
+				BECF96FD18C0AE2B00A261DD /* KDBencodingParser.m */,
 			);
 			path = Bencoding;
 			sourceTree = "<group>";
@@ -146,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BECF96FE18C0AE2B00A261DD /* BencodingParser.m in Sources */,
+				BECF96FE18C0AE2B00A261DD /* KDBencodingParser.m in Sources */,
 				BECF96F118BFD5B700A261DD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +259,7 @@
 				BECF96FA18BFD5B700A261DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
